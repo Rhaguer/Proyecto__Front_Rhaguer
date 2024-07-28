@@ -1,0 +1,14 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    background-color: #000; 
+  }
+  
+  .homepage-image {
+    max-width: 70%;
+    height: auto;
+    border: 2px solid #000000; 
+  }
+  

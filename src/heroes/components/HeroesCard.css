@@ -1,0 +1,14 @@
+.card {
+    background-color: #343a40 !important; 
+    color: white; 
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
