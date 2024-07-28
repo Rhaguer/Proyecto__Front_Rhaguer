@@ -1,4 +1,4 @@
-import './HeroesCard.css';
+import "./HeroesCard.css";
 
 export const HeroesCard = ({ id, nombre, tipo, origen, descripcion }) => {
   const imgSrc = `/assets/heroes/${id}.jpg`;
@@ -11,12 +11,11 @@ export const HeroesCard = ({ id, nombre, tipo, origen, descripcion }) => {
             src={imgSrc}
             className="card-img"
             alt={nombre}
-            style={{ objectFit: 'cover', height: '100%' }}
+            style={{ objectFit: "cover", height: "100%" }}
           />
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h5 className="card-title">Id: {id}</h5>
             <h5 className="card-title">Nombre: {nombre}</h5>
             <p className="card-text">Tipo: {tipo}</p>
             <p className="card-text">Origen: {origen}</p>
