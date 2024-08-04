@@ -1,74 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
-    color: white;
-    background-color: black; 
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .form-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
-  }
-  
-  .button-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .btn-custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  .divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .divider p {
-    margin: 0;
-  }
- 
-  .form-label,
-  .form-check-label,
-  a {
-    color: white !important; 
-  }
-  
-  .divider p {
-    color: white !important; 
-  }
-  
-  .btn-custom {
-    color: white !important; 
-  }
-  
-  .form-control {
-    color: white !important; 
-    background-color: black; 
-  }
-  
-  .form-control::placeholder {
-    color: white !important; 
-  }
-  
-  .form-control:-ms-input-placeholder {
-    color: white !important; 
-  }
-  
-  .form-control::-ms-input-placeholder {
-    color: white !important; 
-  }
-  
+  color: white;
+  background-color: black;
+  font-family: 'Permanent Marker', cursive; /* Aplica la fuente tipo anime */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.divider p {
+  margin: 0;
+  color: white !important;
+}
+
+.form-label,
+.form-check-label,
+a {
+  color: white !important;
+}
+
+.btn-custom {
+  color: white !important;
+}
+
+.form-control {
+  color: white !important;
+  background-color: black;
+}
+
+.form-control::placeholder {
+  color: white !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: white !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: white !important;
+}

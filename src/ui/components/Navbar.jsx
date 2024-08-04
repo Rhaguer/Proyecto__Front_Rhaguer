@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import logo from "../components/img/OIG3.jpg";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -33,7 +34,11 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark mb-5">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Logo
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ width: "56px", height: "56px" }}
+          />
         </a>
         <button
           className="navbar-toggler"
